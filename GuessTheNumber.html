@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet(0).css">
+    <script src="GuessTheNumber.js" defer></script>
+    <script src="buttonMan.js" defer></script>
+    <title>Guess That Number!</title>
+    <h1> Guess That Number!</h1>
+</head>
+<body>
+    <p>I am thinking of a number between 1 and 100 (inclusive!)</p>
+    <p>Can you guess what it is????? CAN YOU WITHSTAND THIS CHALLENGE!?!?!</p>
+    
+    <p id="guessTracker">You have made 0 guesses out of 5 allowed in your attempt to complete this</p> 
+    <p> daunting task!<p>
+    <h6>also if you pick the wrong button to submit the guess you will automatically lose, GOOD LUCK HAVE FUUUUUUUUUUUUUN!</h6>
+    <form id="guessForm" onsubmit="handleGuess(event)">
+        Your Guess: <input type="number" id="userGuess" required>
+        <p></p>
+        <button type="submit" id=wrong class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong2 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong3 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong4 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong5 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong6 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong7 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong8 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong9 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=correct class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong10 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong11 class='submitButton'>Submit Guess!</button>
+        <button type="submit" id=wrong12 class='submitButton'>Submit Guess!</button>
+
+    </form>
+</body>
+</html>
